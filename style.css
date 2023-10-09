@@ -83,7 +83,7 @@ z-index: 1000;
 }
 
 .menu .navbar ul li a {
-    font-size: 20px;
+    font-size: 18px;
     padding: 20px;
     color: #feffff;
     display: block;
@@ -148,7 +148,7 @@ z-index: 1000;
 
 .prices {
     display: flex;
-    margin: auto;
+    align-items: center;
 }
 
 .price-1 {
@@ -183,7 +183,7 @@ hr {
 
 .promos {
     padding: 10px 0 10px 0;
-    text-align: inherit;
+    text-align: center;
 }
 
 .promos hr {
@@ -442,7 +442,7 @@ hr {
     }
 
     .swiper-slide {
-        padding: 0 30px 50px 30px;
+        padding: 0 0 100px 0;
     }
 
     .header-content {
@@ -460,6 +460,7 @@ hr {
     }
 
     .header-txt h1 {
+        margin: -12px 0 0 0;
         font-size: 40px;
     }
 
@@ -472,7 +473,9 @@ hr {
     }
 
     .prices {
-        flex-direction: column;
+        margin: -30px 0 0 0;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
 
