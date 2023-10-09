@@ -191,6 +191,7 @@ hr {
 }
 
 .promos h2 {
+    text-align: left;
     font-size: 50px;
     color: #feffff;
     margin-bottom: 35px;
